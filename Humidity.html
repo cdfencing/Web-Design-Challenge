@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <title>Weather Visualization Dashboard</title>
+  </head>
+  <body>
+<div class = "navigation">
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid navbar-custom">
+  ​
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="row">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="col-xs-9 phone-nav">
+                <a class="navbar-brand" href="#" id="logo">Latitude</a>
+              </div>
+            </div>
+  ​
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                   <li><a href="MaxTemp.html">Max Temperature</a></li>
+                    <li><a href="Humidity.html">Humidity</a></li>
+                    <li><a href="Cloudiness.html">Cloudiness</a></li>
+                    <li><a href="WindSpeed.html">Wind Speed</a></li>
+                  </ul>
+                </li>
+                <li><a href="Comparison.html">Comparison</a></li>
+                <li><a href="Data.html">Data</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+
+    <br>
+    <!-- left box -->
+    <div class = "container">
+        <div class ="row">
+            <div class="col-lg-6 col-sm-12 background-color white-space-right"> 
+                <div class="box">
+                <h1>Humidity</h1> 
+                <hr>        
+                <a target=_blank href="Resources/Images/humidity.png"
+                    alt="Latitude Vs Humidity">
+                    <img src="Resources/Images/humidity.png"
+                    alt="Latitude Vs Humidity">
+                </a>
+                <p class="maintext">
+                    From the data it is observable that there are high levels of humidity across varying latitudes indicating there is not a strong correlation between closeness to the Equator and humidity percentage.
+                    A wide range of cities between the latitudes of -50 and 70 all recorded the highest humidity percentage of 100%. 
+                    The lowest recorded humidity levels fell in bewtween lastitudes 60 nad 80.  
+                </p>
+            </div>       
+            <!-- <div class="col-lg-4 background-color white-space-left" style="height:70%;"> -->
+                <h1>Visualizations</h1>
+                <div class = "container">
+                <div class ="row" style= "padding-bottom: 30px;">
+                    <div class="col-6">
+                        <a target=_blank href="MaxTemp.html">
+                            <img class= "image-responsive resize repose" src="Resources/Images/maxtemp.png"
+                            alt="Latitude Vs Temperature">
+                        </a>    
+                    </div>
+                    <div class="col-6">
+                        <a target=_blank href="Humidity.html">
+                            <img class= "image-responsive resize repose" src="Resources/Images/humidity.png"
+                            alt="Latitude Vs Humidity"> 
+                        </a>        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <a target=_blank href="Cloudiness.html">
+                            <img class= "image-responsive resize repose" src="Resources/Images/cloudiness.png"
+                            alt="Latitude Vs Cloudiness">
+                        </a>    
+                    </div>
+                    <div class="col-6">
+                        <a target=_blank href="WindSpeed.html">
+                            <img class= "image-responsive resize repose" src="Resources/Images/windspeed.png"
+                            alt="Latitude Vs Windspeed">
+                        </a>        
+                    </div>
+                </div>   
+                </div>     
+            </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+        <!-- Copyright -->
+        <div 
+            class="footer-copyright text-center">© Copyright Courtney Dumas (Northwestern Coding Bootcamp) 2020
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
