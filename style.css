@@ -1,45 +1,9 @@
-.page-header{
-    margin-top: 0px;
-    background-color:snow;
-    height: 105px;
-}
-
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-}
-
-.nav li {
-display: inline;
-padding: 35px;
-}      
-
-/*Latitude Formating*/
-h1 span{ 
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px; 
-    padding-bottom: 15px; 
-    color:snow;
-    background-color : blue;
-    text-decoration-line: none;
-}
-
-/*To change the color only on hover*/
-h1 span a, h1 span a:hover{    
-    color:snow;
-    text-decoration-line: none;
-}
-
 h1{
     font-size: 40px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 15px;
-    color: blue;
+    color: black;
 }
 
 /*Background colors*/
@@ -123,7 +87,7 @@ vertical-align: middle;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
-    color: blue;
+    color: black;
 }
 .square {
     width: 100%;
@@ -143,7 +107,7 @@ footer{
     margin-top:20px;
     color:snow;
     background: rgb(134, 133, 133);
-    border-top: 5px solid blue;
+    border-top: 5px solid black;
 }   
 
 
