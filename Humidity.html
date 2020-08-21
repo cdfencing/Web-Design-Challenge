@@ -30,10 +30,10 @@
                   Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a href="MaxTemp.html">Max Temperature</a>
-                  <a href="Humidity.html">Humidity</a>
-                  <a href="Cloudiness.html">Cloudiness</a>
-                  <a href="WindSpeed.html">Wind Speed</a>
+                  <p> <a href="MaxTemp.html">Max Temperature</a></p>
+                  <p><a href="Humidity.html">Humidity</a></p>
+                  <p> <a href="Cloudiness.html">Cloudiness</a></p>
+                  <p><a href="WindSpeed.html">Wind Speed</a></p>
                 </div>
               </li>
             </ul>
@@ -43,8 +43,9 @@
     <!-- left box -->
     <div class = "container">
         <div class ="row">
-            <div class="col-lg-6 col-sm-12 background-color white-space-right"> 
-                <div class="box">
+          <div class ="column">
+            <div class = "box">
+            <div class="col-8"> 
                 <h1>Humidity</h1> 
                 <hr>        
                 <a target=_blank href="Resources/Images/humidity.png"
@@ -57,37 +58,40 @@
                     A wide range of cities between the latitudes of -40 and 70 all recorded the highest humidity percentage of 100%. 
                     The lowest recorded humidity levels fell in bewtween lastitudes -20 and 45.  
                 </p>
-            </div>       
-            <!-- <div class="col-lg-4 background-color white-space-left" style="height:70%;"> -->
+                </div>   
+              </div>  
+          </div>
+          
+            <!--right box-->
+            <div class = "column">
+              <div class = "box">
+            <center>
+            <div class = "col-lg-8">
                 <h1>Visualizations</h1>
+                <hr>
                 <div class ="row" style= "padding-bottom: 30px;">
-                    <div class="col-6">
                         <a target=_blank href="MaxTemp.html">
                             <img class= "image-responsive resize repose" src="Resources/Images/maxtemp.png"
                             alt="Latitude Vs Temperature">
-                        </a>    
-                    </div>
-                    <div class="col-6">
+                        </a> 
                         <a target=_blank href="Humidity.html">
-                            <img class= "image-responsive resize repose" src="Resources/Images/humidity.png"
-                            alt="Latitude Vs Humidity"> 
-                        </a>        
-                    </div>
+                          <img class= "image-responsive resize repose" src="Resources/Images/humidity.png"
+                          alt="Latitude Vs Humidity"> 
+                      </a>       
                 </div>
                 <div class="row">
-                    <div class="col-6">
                         <a target=_blank href="Cloudiness.html">
                             <img class= "image-responsive resize repose" src="Resources/Images/cloudiness.png"
                             alt="Latitude Vs Cloudiness">
                         </a>    
-                    </div>
-                    <div class="col-6">
                         <a target=_blank href="WindSpeed.html">
                             <img class= "image-responsive resize repose" src="Resources/Images/windspeed.png"
                             alt="Latitude Vs Windspeed">
                         </a>        
                     </div>
-                </div>        
+                    
+                </div>   
+                </center>     
             </div>
             </div>
         </div>

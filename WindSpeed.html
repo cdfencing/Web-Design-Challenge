@@ -12,39 +12,40 @@
   </head>
   <body>
     <!-- Start of navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Latitude</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="Comparison.html">Comparison</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Data.html">Data</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Plots
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a href="MaxTemp.html">Max Temperature</a>
-              <a href="Humidity.html">Humidity</a>
-              <a href="Cloudiness.html">Cloudiness</a>
-              <a href="WindSpeed.html">Wind Speed</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="Comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <p> <a href="MaxTemp.html">Max Temperature</a></p>
+                  <p><a href="Humidity.html">Humidity</a></p>
+                  <p> <a href="Cloudiness.html">Cloudiness</a></p>
+                  <p><a href="WindSpeed.html">Wind Speed</a></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
     <br>
     <!-- left box -->
     <div class = "container">
         <div class ="row">
-            <div class="col-lg-6 col-sm-12 background-color white-space-right"> 
-                <div class="box">
+          <div class ="column">
+            <div class = "box">
+            <div class="col-8"> 
                 <h1>Windspeed</h1> 
                 <hr>        
                 <a target=_blank href="Resources/Images/windspeed.png"
@@ -53,43 +54,44 @@
                     alt="Latitude Vs Windspeed">
                 </a>
                 <p class="maintext">
-                    From the data it is noticeable that across several different latitude levels that there are high windspeeds. This indicates there is not a strong correlation between proximity to the Equator and windspeed.
-                    The highest recorded windspeed was recorded for a city at latitidue of 40, with the highest recorded speed at slightly over 30 mph. 
-                    The varriation in windspeed can be explained as windspeed varies based on the hour of day, time of year and seasonality.  
+                  From the data it is noticeable that across several different latitude levels that there are high windspeeds. This indicates there is not a strong correlation between proximity to the Equator and windspeed.
+                  The highest recorded windspeed was recorded for a city at latitidue of 40, with the highest recorded speed at slightly over 30 mph. 
+                  The varriation in windspeed can be explained as windspeed varies based on the hour of day, time of year and seasonality.  
                 </p>
-            </div>       
-            <!-- <div class="col-lg-4 background-color white-space-left" style="height:70%;"> -->
+                </div>   
+              </div>  
+          </div>
+
+            <!--right box-->
+            <div class = "column">
+              <div class = "box">
+            <center>
+            <div class = "col-lg-8">
                 <h1>Visualizations</h1>
-                <div class = "container">
+                <hr>
                 <div class ="row" style= "padding-bottom: 30px;">
-                    <div class="col-6">
                         <a target=_blank href="MaxTemp.html">
                             <img class= "image-responsive resize repose" src="Resources/Images/maxtemp.png"
                             alt="Latitude Vs Temperature">
-                        </a>    
-                    </div>
-                    <div class="col-6">
+                        </a> 
                         <a target=_blank href="Humidity.html">
-                            <img class= "image-responsive resize repose" src="Resources/Images/humidity.png"
-                            alt="Latitude Vs Humidity"> 
-                        </a>        
-                    </div>
+                          <img class= "image-responsive resize repose" src="Resources/Images/humidity.png"
+                          alt="Latitude Vs Humidity"> 
+                      </a>       
                 </div>
                 <div class="row">
-                    <div class="col-6">
                         <a target=_blank href="Cloudiness.html">
                             <img class= "image-responsive resize repose" src="Resources/Images/cloudiness.png"
                             alt="Latitude Vs Cloudiness">
                         </a>    
-                    </div>
-                    <div class="col-6">
                         <a target=_blank href="WindSpeed.html">
                             <img class= "image-responsive resize repose" src="Resources/Images/windspeed.png"
                             alt="Latitude Vs Windspeed">
                         </a>        
                     </div>
+                    
                 </div>   
-                </div>     
+                </center>     
             </div>
             </div>
         </div>
