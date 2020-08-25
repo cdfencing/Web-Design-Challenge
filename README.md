@@ -1,5 +1,8 @@
 # Web-Design-Challenge
 
+Please refer to the following link:
+https://cdfencing.github.io/Web-Design-Challenge/
+
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
 ## Background
